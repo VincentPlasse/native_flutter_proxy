@@ -27,7 +27,7 @@ apply plugin: 'kotlin-android'
 android {
     namespace "com.example.myapp"
 
-    compileSdkVersion 30
+    compileSdkVersion 31
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_17
@@ -49,3 +49,4 @@ android {
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
 }
+
